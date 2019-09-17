@@ -1,0 +1,23 @@
+# Prompt user for a number then multiply that number by itself and print the result
+
+########################################
+# 1. Setup and configuration (set up your variables)
+########################################
+
+# Prompt the user for a number
+user_input = int(input("Enter a number: "))
+
+########################################
+# 2. Do some work with those variables
+########################################
+
+# print(type(user_input))
+# multiply that number by itself
+result = user_input * user_input
+
+########################################
+# 3. Output the results
+########################################
+
+# Print the result
+print(result)
